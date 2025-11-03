@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>{{ page.title | default: site.title }}</title>
+    <meta
+      name="description"
+      content="{{ page.description | default: site.description }}"
+    />
+    <style>
+      :root {
+        --bg: #f6f7f8;
+        --card: #ffffff;
+        --text: #0d1117;
+        --muted: #556064;
+        --accent: #0b6cff;
+      }
+      html,
+      body {
+        height: 100%;
+      }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--text);
+        font-family:
+          -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        line-height: 1.6;
+        padding: 3rem 1rem;
+      }
+      .wrap {
+        max-width: 720px;
+        margin: 0 auto;
+        background: var(--card);
+        padding: 2.25rem 2.25rem;
+        border-radius: 10px;
+        box-shadow: 0 8px 30px rgba(12, 18, 25, 0.06);
+        border: 1px solid rgba(12, 18, 25, 0.04);
+      }
+      header {
+        display: flex;
+        align-items: baseline;
+        gap: 0.75rem;
+        margin-bottom: 0.75rem;
+      }
+      header h1 {
+        margin: 0;
+        font-size: 1.25rem;
+        letter-spacing: -0.01em;
+      }
+      header .muted {
+        color: var(--muted);
+        font-size: 0.9rem;
+      }
+      main > *:first-child {
+        margin-top: 0;
+      }
+      h2 {
+        margin-top: 1.25rem;
+        margin-bottom: 0.5rem;
+        font-size: 1rem;
+      }
+      ul {
+        margin-top: 0.25rem;
+        margin-bottom: 0.5rem;
+        padding-left: 1.15rem;
+      }
+      p {
+        margin: 0.4rem 0;
+        color: var(--muted);
+      }
+      .kv {
+        margin: 0.25rem 0;
+        color: var(--text);
+      }
+      code,
+      pre {
+        font-family:
+          ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono",
+          "Courier New", monospace;
+        background: #f4f6f8;
+        padding: 0.12rem 0.4rem;
+        border-radius: 6px;
+      }
+      a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      footer {
+        margin-top: 1.5rem;
+        color: var(--muted);
+        font-size: 0.85rem;
+        text-align: right;
+      }
+      @media (max-width: 480px) {
+        body {
+          padding: 1.25rem;
+        }
+        .wrap {
+          padding: 1rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <h1>{{ page.title | default: site.title }}</h1>
+        <div class="muted">Minimal profile</div>
+      </header>
+
+      <main>{{ content }}</main>
+
+      <footer>Generated with Jekyll · {{ site.title }}</footer>
+    </div>
+  </body>
+</html>
