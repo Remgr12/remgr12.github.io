@@ -1,8 +1,36 @@
 ---
-title: My single-file page
+title: Remgr — Profile
 ---
 
-# Hello
+# Zsombor Simon (Remgr)
 
-This is a minimal GitHub Pages site serving a markdown file. You can edit this
-file and push to GitHub; it will be rendered as HTML.
+Gender: Male  
+Location: Salzburg State, Austria
+
+## Languages
+
+- JavaScript
+- TypeScript
+- HTML
+- CSS
+- Python
+- Java
+- Ruby
+- Rust
+- Lua
+
+## Learning
+
+- Node.js
+- Rust (further)
+- Odin
+
+## Hobbies
+
+- Skiing
+- Sleeping
+
+## Contact
+
+- Discord: Remgr
+- Telegram: Remgr12
