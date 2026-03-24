@@ -1,11 +1,18 @@
----
-title: Remgr — Profile
----
-
-# Zsombor Simon (Remgr)
+# Zsombor Simon
 
 Gender: Male  
 Location: Salzburg State, Austria
+
+## Contact
+
+- Discord: Remgr
+- Telegram: Remgr12
+- Email: zsombor@remgr.dev | zsombor@mailbox.org
+
+## Hobbies
+
+- Skiing
+- Badminton
 
 ## Languages
 
@@ -18,19 +25,10 @@ Location: Salzburg State, Austria
 - Ruby
 - Rust
 - Lua
+- Node.js
 
 ## Learning
 
-- Node.js
 - Rust (further)
 - Odin
-
-## Hobbies
-
-- Skiing
-- Sleeping
-
-## Contact
-
-- Discord: Remgr
-- Telegram: Remgr12
+- Kotlin
