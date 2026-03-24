@@ -1,5 +1,3 @@
-# Zsombor Simon
-
 Gender: Male  
 Location: Salzburg State, Austria
 
@@ -7,7 +5,7 @@ Location: Salzburg State, Austria
 
 - Discord: Remgr
 - Telegram: Remgr12
-- Email: zsombor@remgr.dev | zsombor@mailbox.org
+- Email: zsombor@remgr.dev / zsombor@mailbox.org
 
 ## Hobbies
 
