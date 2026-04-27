@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Certificates & Badges</title>
+    <style>
+      :root {
+        --bg: #0b0f12;
+        --card: #0f1720;
+        --text: #e6eef6;
+        --muted: #9aa6b2;
+        --accent: #58a6ff;
+      }
+      html,
+      body {
+        height: 100%;
+      }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--text);
+        font-family:
+          -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        line-height: 1.6;
+        padding: 3rem 1rem;
+      }
+      .wrap {
+        max-width: 900px;
+        margin: 0 auto;
+        background: var(--card);
+        padding: 2.25rem;
+        border-radius: 10px;
+        box-shadow: 0 8px 30px rgba(12, 18, 25, 0.06);
+        border: 1px solid rgba(12, 18, 25, 0.04);
+      }
+      header {
+        text-align: center;
+        margin-bottom: 2rem;
+      }
+      header h1 {
+        margin: 0;
+        font-size: 2rem;
+      }
+      header p {
+        color: var(--muted);
+        margin-top: 0.5rem;
+      }
+      h2 {
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        border-bottom: 1px solid #1f2937;
+        padding-bottom: 0.5rem;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+        gap: 1.5rem;
+        align-items: center;
+        justify-items: center;
+      }
+      .cert-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        gap: 1.5rem;
+        justify-items: center;
+      }
+      .card {
+        background: #1e293b;
+        padding: 1rem;
+        border-radius: 8px;
+        text-align: center;
+        transition: transform 0.2s;
+        width: 100%;
+        box-sizing: border-box;
+      }
+      .card:hover {
+        transform: translateY(-5px);
+      }
+      .card img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 4px;
+      }
+      .badge-card img {
+        max-width: 130px;
+      }
+      a {
+        text-decoration: none;
+        color: inherit;
+        display: block;
+      }
+      p.label {
+        margin: 0.75rem 0 0 0;
+        font-size: 0.9rem;
+        font-weight: 500;
+        color: var(--text);
+      }
+      @media (max-width: 480px) {
+        body {
+          padding: 1.25rem;
+        }
+        .wrap {
+          padding: 1rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <h1>Achievements & Certificates</h1>
+        <p>A collection of my professional certifications and badges</p>
+      </header>
+
+      <main>
+        <h2>ICDL Certificates</h2>
+        <div class="cert-grid">
+          <a href="https://github.com/Remgr12/achievements/blob/0339aebe692847c72f69490c70f9fd784b8145f3/certificates/ecdl/pdf/documents.pdf" class="card">
+            <img src="https://github.com/Remgr12/achievements/raw/0339aebe692847c72f69490c70f9fd784b8145f3/certificates/ecdl/png/documents-1.png" alt="Documents">
+            <p class="label">Documents</p>
+          </a>
+          <a href="https://github.com/Remgr12/achievements/blob/0339aebe692847c72f69490c70f9fd784b8145f3/certificates/ecdl/pdf/essentials.pdf" class="card">
+            <img src="https://github.com/Remgr12/achievements/raw/0339aebe692847c72f69490c70f9fd784b8145f3/certificates/ecdl/png/essentials-1.png" alt="Essentials">
+            <p class="label">Essentials</p>
+          </a>
+          <a href="https://github.com/Remgr12/achievements/blob/0339aebe692847c72f69490c70f9fd784b8145f3/certificates/ecdl/pdf/it-security.pdf" class="card">
+            <img src="https://github.com/Remgr12/achievements/raw/0339aebe692847c72f69490c70f9fd784b8145f3/certificates/ecdl/png/it-security-1.png" alt="IT Security">
+            <p class="label">IT Security</p>
+          </a>
+          <a href="https://github.com/Remgr12/achievements/blob/0339aebe692847c72f69490c70f9fd784b8145f3/certificates/ecdl/pdf/online-essentials.pdf" class="card">
+            <img src="https://github.com/Remgr12/achievements/raw/0339aebe692847c72f69490c70f9fd784b8145f3/certificates/ecdl/png/online-essentials-1.png" alt="Online Essentials">
+            <p class="label">Online Essentials</p>
+          </a>
+          <a href="https://github.com/Remgr12/achievements/blob/0339aebe692847c72f69490c70f9fd784b8145f3/certificates/ecdl/pdf/ICDL-base.pdf" class="card">
+            <img src="https://github.com/Remgr12/achievements/raw/0339aebe692847c72f69490c70f9fd784b8145f3/certificates/ecdl/png/ICDL-base-1.png" alt="ICDL Base">
+            <p class="label">ICDL Base</p>
+          </a>
+        </div>
+
+        <h2>Badges</h2>
+        <div class="grid">
+          <a href="https://www.credly.com/badges/0db6a5f6-bb4f-4209-8a15-b2377b76451b/public_url" class="card badge-card">
+            <img src="https://github.com/Remgr12/achievements/raw/7ddeb5ac888a176f9c098529fcd2dc2cf8e14307/certificates/badges/cisco/networking-basics.png" alt="Networking Basics">
+          </a>
+          <a href="https://www.credly.com/badges/6b19afa1-163e-42bb-8517-75439ade3992/public_url" class="card badge-card">
+            <img src="https://github.com/Remgr12/achievements/raw/56f9a129d14aa1c3ec45ee54092866f298c0ba3c/certificates/badges/fortinet/introduction-to-the-threat-landscape-3-0.png" alt="Threat Landscape">
+          </a>
+          <a href="https://www.credly.com/badges/7c64229b-e2a2-47fe-ac36-eb9c567d3021/public_url" class="card badge-card">
+            <img src="https://github.com/Remgr12/achievements/raw/56f9a129d14aa1c3ec45ee54092866f298c0ba3c/certificates/badges/fortinet/fortinet-certified-fundamentals-cybersecurity.png" alt="Fortinet Certified Fundamentals">
+          </a>
+          <a href="https://www.credly.com/badges/b51588f1-c21b-45cd-951f-7c6087838758/public_url" class="card badge-card">
+            <img src="https://github.com/Remgr12/achievements/raw/56f9a129d14aa1c3ec45ee54092866f298c0ba3c/certificates/badges/fortinet/getting-started-in-cybersecurity-3-0.png" alt="Getting Started in Cybersecurity">
+          </a>
+          <a href="https://www.credly.com/" class="card badge-card">
+            <img src="https://github.com/Remgr12/achievements/raw/309c5eb561b4369567f69daa436acb47119c86c3/certificates/badges/IBM/ibm-data-science-foundations-level-1.png" alt="IBM Data Science Foundations">
+          </a>
+          <a href="https://www.credly.com/badges/dd27b671-ad37-4f64-a4f7-24a63b9f4a8b/public_url" class="card badge-card">
+            <img src="https://github.com/Remgr12/achievements/raw/5a6af99c35e4c3964333a04b55a72371503b31e3/certificates/badges/cisco/introduction-to-cybersecurity.png" alt="Intro to Cybersecurity 1">
+          </a>
+          <a href="https://www.credly.com/badges/150dd40c-fde0-4c29-948e-3af7c7068295/public_url" class="card badge-card">
+            <img src="https://github.com/Remgr12/achievements/blob/5a6af99c35e4c3964333a04b55a72371503b31e3/certificates/badges/cisco/endpoint-security.png" alt="Intro to Cybersecurity 2">
+          </a>
+          <a href="https://www.credly.com/badges/38202476-80f4-498c-8c0c-560940523293/public_url" class="card badge-card">
+            <img src="https://github.com/Remgr12/achievements/raw/b4770c0ed80c54ce546b88db86a2b96c7dc1e399/certificates/badges/linux/lfd140-github-for-open-standards-development.png" alt="GitHub for Open Standards">
+          </a>
+          <a href="https://www.credly.com/badges/75d183a5-3470-4d54-afe9-52fe06e176bc/public_url" class="card badge-card">
+            <img src="https://github.com/Remgr12/achievements/raw/c794f4eade69fb2692ca361246f65f5ae0efcd36/certificates/badges/linux/lfc102-inclusive-open-source-community-orientation.png" alt="Inclusive Open Source Community">
+          </a>
+          <a href="https://www.credly.com/badges/d28f308f-b7ae-4158-989c-ab37bff60420/public_url" class="card badge-card">
+            <img src="https://github.com/Remgr12/achievements/raw/c481dff449994da5dea373ff8b1a6f92393068d6/certificates/badges/linux/lfd125-security-for-software-development-managers.png" alt="Security for Software Development Managers">
+          </a>
+          <a href="https://www.credly.com/badges/790e17cb-4e72-4146-8dbe-12a8328b42d2/public_url" class="card badge-card">
+            <img src="https://github.com/Remgr12/achievements/raw/4764b8013293b99ccda85690f48a3ef15579c48a/certificates/badges/linux/lfc108-cybersecurity-essentials.png" alt="Cybersecurity Essentials">
+          </a>
+          <a href="https://www.credly.com/badges/2e3c0bfe-003a-49ae-9358-0d0499b58f39/public_url" class="card badge-card">
+            <img src="https://github.com/Remgr12/achievements/raw/4764b8013293b99ccda85690f48a3ef15579c48a/certificates/badges/linux/lfel1002-getting-started-with-rust.png" alt="Getting Started with Rust">
+          </a>
+          <a href="https://www.credly.com/badges/3ee6e018-6ced-4c54-9780-258f328f7af7/public_url" class="card badge-card">
+            <img src="https://github.com/Remgr12/achievements/raw/ab99222075c3079e81cd65a29b47a8c96d5ae473/certificates/badges/linux/lfs101-introduction-to-linux.png" alt="Introduction to Linux">
+          </a>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
